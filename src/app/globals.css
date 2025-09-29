@@ -2,54 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Solana Wallet Adapter Styles */
-.wallet-adapter-button {
-  background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
-  border: none;
-  border-radius: 0.5rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #030303;
   color: white;
-  cursor: pointer;
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  transition: all 0.2s;
-}
-
-.wallet-adapter-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
-}
-
-.wallet-adapter-button-trigger {
-  background: none !important;
-}
-
-.wallet-adapter-modal {
-  background: rgba(3, 3, 3, 0.95);
-  backdrop-filter: blur(20px);
-}
-
-.wallet-adapter-modal-container {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1rem;
-}
-
-.wallet-adapter-modal-title {
-  color: white;
-}
-
-.wallet-adapter-modal-list {
-  background: transparent;
-}
-
-.wallet-adapter-modal-list-item {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.wallet-adapter-modal-list-item:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(99, 102, 241, 0.5);
 }
